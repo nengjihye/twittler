@@ -1,0 +1,113 @@
+#body {
+  cursor: pointer;
+  background: url(desert.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#title {
+  font-family: 'Lobster', cursive;
+  font-size: 70px;
+  font-weight: bold;
+  color:white; 
+  padding: 15px;
+  transition: color 0.5s ease-in-out;
+  text-align: center;
+}
+
+#send-tweet {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color:gray;
+  background-color: ghostwhite;
+  width: 80%;
+  margin: 27px auto;
+  padding: 29px;
+}
+
+textarea {
+  margin-top: 5px;
+  width: 400px;
+  height: 40px;
+}
+
+
+.send-btn {
+  display: flex;
+  text-align: center;
+  background-color: mediumpurple;
+  color: white;
+  font-family: 'Lobster', cursive;
+  font-size: 25px;
+  width: 120px;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+
+ul {
+  list-style: none;
+}
+
+#checkbox {
+  box-sizing: border-box;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  background-color: seashell; 
+}
+
+#check-btn {
+  text-align: center;
+  background-color:white;
+  color: grey;
+  font-family: 'Lobster', cursive;
+  font-size: 19px;
+  border-radius: 12px;
+}
+
+#view-comment {
+  box-sizing: border-box;
+  background-color: ghostwhite;
+  font-family: 'Noto Sans KR', sans-serif;
+  width: 80%;
+  margin: auto;
+  padding: 29px;
+  border-bottom: 10px solid seashell;
+}
+
+.user {
+  transition: all 0.3s linear;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.user:hover {
+  color: pink;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.date {
+  float: right;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 12px;
+}
+
+.message{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border-bottom: 3px solid lightgray;
+  background-color: white;
+  font-size: 12px;
+}
+
+.comment1 {
+  margin-top: 20px;
+  border-bottom: 4px solid gainsboro; 
+}
